@@ -1,0 +1,70 @@
+Cahier des charges
+
+
+
+Scénario :
+
+	Titre : Sucrotopia
+
+
+Le thème Sucrotopia pour un jeu de tower defense serait un monde sucré et coloré, inspiré par des friandises et des sucreries. 
+
+Tours sucrées : Les tours de défense pourraient être des bonbons géants, des sucettes, des barbes à papa, des cupcakes défensifs, etc. Chaque tour aurait des attaques spéciales basées sur des éléments sucrés. 
+
+Tours sucrées défensives : 
+nounours gummy : lance des mini nounours, courte portée
+Barbapapa lance des filaments qui vont ralentir les monstres : moyenne portée
+Cupcake lances topping : courte portée
+Tour de marshmallow : lance des marshmallow enflammées : longue portée
+
+Ennemis sucrés : Les vagues d'ennemis pourraient être composées de créatures en bonbons telles que : 
+des parts de gâteaux moisis
+des bonhommes de pain d'épice animés
+des chocolats mutants
+des gelées ficelles
+
+Ennemis sucrés (bonbons périmés/invendables) :
+trois types de monstres : réglisses / bonhommes de pain d'épice
+Les faibles : - 20 pv quand ils attaquent et donnent 10 caramels (environ)
+Les moyens : - 40 pv quand ils attaquent et donnent 30 caramels (environ)
+Les forts : -60 pv quand ils attaquent  et donnent 50 caramels (environ)
+
+
+Base à défendre :
+Portail qui mène vers le monde des gentils bonbons
+Les PV sont reliés à cette porte (500 PV)
+
+
+
+Chemin de sucreries : Le chemin que suivent les ennemis pourrait être un sentier fait de bonbons, de réglisse, de guimauves, et d'autres friandises. 
+Chemin blanc en blocs de sucre
+
+Les joueurs pourraient peut-être placer des obstacles sucrés pour ralentir les ennemis. 
+
+
+Carte du monde : La carte du jeu pourrait représenter un monde sucré avec différentes zones thématiques comme une forêt de bonbons, une montagne de chocolat, un lac de glace fondant, etc. 
+
+Power-ups sucrés : Les power-ups et améliorations pourraient être représentés par des éléments sucrés spéciaux, tels que des éclats de caramel pour améliorer la puissance de tir ou des sucettes magiques pour ralentir les ennemis. 
+
+
+Histoire amusante : Créer une histoire amusante et légère qui lie les niveaux ensemble, mettant en scène des personnages sympathiques vivant dans ce monde sucré. En combinant ces éléments, vous pouvez créer un jeu de tower defense unique et divertissant avec le thème Candyland, qui apportera une touche sucrée à l'expérience de jeu.
+
+
+
+Implémentation : 
+
+- Classe Tour :
+ - Créez une classe Tour avec des attributs tels que la portée, la puissance, le niveau, etc.
+ - Utilisez l'héritage pour créer des classes spécifiques pour chaque type de tour sucrée.
+- Classe Ennemi :
+- Créez une classe Ennemi avec des attributs comme la santé, la vitesse, etc.
+- Utilisez l'héritage pour modéliser différents types d'ennemis sucrés.
+- Classe Carte :
+- Modéliser la carte du jeu, en représentant les chemins et les emplacements des tours.
+- Utiliser une matrice ou une liste de listes pour représenter le tableau de jeu.
+Chaque cellule de la matrice où chaque élément de la liste peut contenir des informations sur l'état actuel de cette cellule (si elle est occupée par une tour, un ennemi, etc.).
+
+- Game : Jeu
+- Joueur : les possibilités du joueur
+- Gui : affichage graphique
+
